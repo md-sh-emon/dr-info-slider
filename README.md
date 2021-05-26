@@ -2,7 +2,7 @@
 
 This is a WordPress Slider Plugin for Showing Doctor Information. Very Easy to use Slider Plugin for WordPress.
 
-[See Demo](https://md-sh-emon.github.io/dr-info-slider/)
+[See Demo](https://md-sh-emon.github.io/dr-info-slider-demo/)
 
 ## Configure the plugin
 Step 1: Install the plugin <br>
