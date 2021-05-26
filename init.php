@@ -200,9 +200,9 @@ class doctorInfoSlider_Doctor {
     <?php }
 
     public function doctorInfoSlider_send_meta_box_value_to_database( $post_id ){
-        $dr_age = isset( $_POST['dr_age'] ) ? $_POST['dr_age'] : '';
-        $dr_degree = isset( $_POST['dr_degree'] ) ? $_POST['dr_degree'] : '';
-        $dr_chamber = isset( $_POST['dr_chamber'] ) ? $_POST['dr_chamber'] : '';
+        $dr_age = isset( $_POST['dr_age'] ) ? sanitize_text_field( $_POST['dr_age'] ) : '';
+        $dr_degree = isset( $_POST['dr_degree'] ) ? sanitize_text_field( $_POST['dr_degree'] ) : '';
+        $dr_chamber = isset( $_POST['dr_chamber'] ) ? sanitize_text_field( $_POST['dr_chamber'] ) : '';
 
         update_post_meta( $post_id, '_dr_age', $dr_age );
         update_post_meta( $post_id, '_dr_degree', $dr_degree );
