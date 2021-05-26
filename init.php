@@ -163,7 +163,7 @@ class doctorInfoSlider_Doctor {
     // callback of wp_enqueue_scripts
     public function doctorInfoSlider_scripts(){
 
-        // Adding jquery.min.js 
+        // Adding owl.carousel.min.js 
         wp_enqueue_script('doctorInfoSlider-owl-carousel', PLUGINS_URL('js/owl.carousel.min.js', __FILE__ ), array('jquery'), '', true);
 
         // Adding main.js 
